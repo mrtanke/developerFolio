@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Master student in Data & Computer Science at Heidelberg University, interested in AI, RAG, Agent and ML Systems."
   ),
-  resumeLink:
-    "---", // Set to empty to hide the button
+  resumeLink: "---", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,14 +48,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I love building intelligent systems and learning new AI technologies.",
+  subTitle:
+    "I love building intelligent systems and learning new AI technologies.",
   skills: [
-    emoji(
-      "⚡ Develop full-stack AI apps using FastAPI & React"
-    ),
-    emoji(
-      "⚡ Build RAG and Agent systems with LLMs"
-    ),
+    emoji("⚡ Develop full-stack AI apps using FastAPI & React"),
+    emoji("⚡ Build RAG and Agent systems with LLMs")
     // emoji(
     //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     // )
@@ -305,7 +301,8 @@ const blogSection = {
     },
     {
       url: "https://flaxen-fridge-a68.notion.site/Retrieval-Augmented-Generation-for-Knowledge-Intensive-NLP-Tasks-286559a021ef80d2872ec5bf6c908f17",
-      title: "“Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks” Reading Notes",
+      title:
+        "“Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks” Reading Notes",
       description:
         "The reading notes of the paper “Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks” published in 2020."
     }
